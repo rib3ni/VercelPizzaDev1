@@ -1,0 +1,72 @@
+	body{
+		width: 100vw;
+		height: 100vh;
+		background-image: url(images/paisagem3.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 120%;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		}
+
+
+	.topo
+	{
+		color: #6ab99d;
+		text-align: center;
+	}
+
+	.text-center
+	{
+		color: black;
+		text-align: center;
+		
+	}
+	
+	.text-center1
+	{
+		color: black;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	table
+	{
+		margin: auto;
+		padding-bottom: 10px;
+	}
+
+	
+	.form
+	{
+	color:black;
+	margin-top: 200px;
+	background-color: white;
+	width: 450px;
+	overflow: hidden;
+	height: 400px;
+	padding: 40px;
+	border-radius: 20px;
+	}
+
+	
+
+	.btn
+	{	
+		width: 120px;
+		height: 30px;
+		font-size: 20px;
+		font-weight: bold;
+		background: #fff;
+		border-radius: 8px;
+		cursor: pointer;
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	}
+
+	.btn:hover, .btn:focus, .btn:active
+	{
+		box-shadow: 0 0 20px rgba(0,0,0,0.5);
+		color: black;
+		background: #6ab99d;
+	}

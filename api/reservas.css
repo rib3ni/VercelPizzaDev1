@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(images/paisagem3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 120%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	}
+
+
+.container{
+max-width: 1280px;
+margin: 0 auto;
+
+}
+
+.form-container{
+	color:black;
+	margin-top: 200px;
+	background-color: white;
+	max-width: 500px;
+	height:800px;
+	padding: 40px;
+	border-radius: 20px;
+	}
+
+.form-container h1{
+	text-align: center;
+	color: #6ab99d;
+	font-size: 28px;
+
+	}
+	
+.form-container p{
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.form-group_input{
+	position: relative;
+	margin: 20px 0;
+
+}
+
+.form-group_input label{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	transition: all 0.2s;
+	cursor: text;
+}
+
+.input{
+width: 100%;
+border:0;
+border-bottom: 2px solid #ccc;
+padding: 5px;
+font-size: 17px;
+outline: none;
+}
+
+
+
+
+form .form-group_input .input:focus ~ label,
+form .form-group_input .input:valid ~ label
+{
+transform: translateY(-24px);
+font-size: 12px;
+color: #6ab99d;
+
+}
+
+.btn{
+width: 100%;
+text-align: center;
+
+}
+
+form button[type=submit]{
+	padding: 10px 40px;
+	border: 0;
+	border-radius: 10px;
+	background-color:#5a9a83;
+	color: #fff;
+	cursor: pointer; 
+	font-size: medium;
+}
+
+input[type="date"]
+{
+position: relative;
+width: 400px;
+height: 5px;
+padding: 20px;
+border: 0;
+background: white;
+border-radius: 10px;
+outline: none;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 3px;
+color: black;
+box-shadow: 0 40px 20px rgba(red, green, blue, alpha);
+
+}
+
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #fff;
+    background-image: none;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+	color: black;
+ }
+ select::-ms-expand {
+    display: none;
+ }
+ .form-control_select {
+    position: relative;
+    display: flex;
+    width: 24.7em;
+    height: 3em;
+    line-height: 3;
+    background: #5c6664;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .form-control_select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #fff;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .form-control_select:hover::after {
+    color: #6ab99d;
+ }
+
+
+ .wrapper{
+	height: 50px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFF;
+	border-radius: 12px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  .wrapper span{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	cursor: pointer;
+	user-select: none;
+	color: #366052;
+  }
+  .wrapper span.num{
+	font-size: 25px;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	border-left: 2px solid rgba(0,0,0,0.2);
+	pointer-events: none;
+	color: #366052;
+	
+  }
+  
+  .input_num{
+	justify-content: center;
+	display: flex;
+	padding-top: 7px;
+  }
+
+  .num_label{
+	text-align: center;
+	padding-top: 28px;
+	position: relative;
+  }
+
+  .textarea {
+	background-color: #dddddd;
+	color: #666666;
+	padding: 1em;
+	border-radius: 10px;
+	border: 2px solid transparent;
+	outline: none;
+	font-family: "Heebo", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.4;
+	width: 400px;
+	height: 100px;
+	transition: all 0.2s;
+  }
+  
+  .textarea:hover {
+	cursor: pointer;
+	background-color: #eeeeee;
+  }
+  
+  .textarea:focus {
+	cursor: text;
+	color: #333333;
+	background-color: white;
+	border-color: #333333;
+  }
+  
+  .textareal{
+text-align: center;
+padding-top: 7px;
+padding-bottom: 10px;
+
+  }
+ 
+  input[type="number"]{
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 40px;
+    border: none;
+    background-color: #ffffff;
+    color: #202030;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
